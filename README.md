@@ -22,20 +22,21 @@ To run the project, you need the following:
 ## Implementation Overview
 
 
-Data Preparation: The MNIST dataset is loaded and transformed, and data loaders are created for both training and testing.
+**Data Preparation**: The MNIST dataset is loaded and transformed, and data loaders are created for both training and testing.
 
-Visualization: The repository includes functions to visualize the distribution of labels in the dataset and to display random examples, helping assess the dataset's characteristics.
+**Visualization**: The repository includes functions to visualize the distribution of labels in the dataset and to display random examples, helping assess the dataset's characteristics.
 
-Model Definition: A CNN model is defined with convolutional, pooling, and fully connected layers, tailored for image classification tasks.
+**Model Definition**: A CNN model is defined with convolutional, pooling, and fully connected layers, tailored for image classification tasks.
 
-Training and Testing Functions: Custom functions are provided for training the model and evaluating its performance on the test set, with a centralized training loop included.
+**Training and Testing Functions**: Custom functions are provided for training the model and evaluating its performance on the test set, with a centralized training loop included.
 
-Federated Learning Setup: The dataset is partitioned into clients, and a Flower client class is implemented to facilitate local training and evaluation.
+**Federated Learning Setup**: The dataset is partitioned into clients, and a Flower client class is implemented to facilitate local training and evaluation.
 
-Server Configuration: A Flower server is set up using a custom strategy (FedAvg) to aggregate model updates and evaluate performance metrics.
+**Server Configuration**: A Flower server is set up using a custom strategy (FedAvg) to aggregate model updates and evaluate performance metrics.
 
-Simulation: The project enables running a federated learning simulation, where clients are trained across multiple rounds, with performance metrics tracked and visualized for analysis.
-Install the required packages using:
+**Simulation**: The project enables running a federated learning simulation, where clients are trained across multiple rounds, with performance metrics tracked and visualized for analysis.
+
+## Install the required packages using:
 
 ```bash
 pip install flwr[simulation] flwr-datasets matplotlib
