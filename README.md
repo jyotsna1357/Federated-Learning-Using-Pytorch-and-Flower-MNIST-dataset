@@ -19,7 +19,9 @@ To run the project, you need the following:
 - Hugging Face Datasets
 - Matplotlib
   
-Implementation Overview
+## Implementation Overview
+
+
 Data Preparation: The MNIST dataset is loaded and transformed, and data loaders are created for both training and testing.
 
 Visualization: The repository includes functions to visualize the distribution of labels in the dataset and to display random examples, helping assess the dataset's characteristics.
