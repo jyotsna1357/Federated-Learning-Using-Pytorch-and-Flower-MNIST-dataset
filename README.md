@@ -34,9 +34,9 @@ pip install torch numpy
 Usage
 To run the script, you can use the following basic command:
 
-bash
-Copy code
+
 python main.py --model <model_type> --attack <attack_type> --defense <defense_type>
+
 Arguments
 Model Options
 Argument	Description	Choices	Default
